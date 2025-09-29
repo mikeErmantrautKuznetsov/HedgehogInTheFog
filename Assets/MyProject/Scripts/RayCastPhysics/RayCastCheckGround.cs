@@ -19,8 +19,11 @@ public class RayCastCheckGround : MonoBehaviour
             Debug.Log($"Return result: {_isGround}!!");
             return true;
         }
-        Debug.Log($"Return result: {_isGround}!!");
-        return false;
+        else
+        {
+            Debug.Log($"Return result: {_isGround}!!");
+            return false;
+        }
     }
 
     public void DrawRayCast()

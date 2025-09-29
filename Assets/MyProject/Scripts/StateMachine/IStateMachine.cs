@@ -6,5 +6,7 @@ public interface IStateMachine
 
     public void Movement();
 
+    public void Jump();
+
     public void Dead();
 }
