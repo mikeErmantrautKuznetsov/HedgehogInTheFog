@@ -32,7 +32,7 @@ public class BootsStrap : MonoBehaviour
         OnMoveMobilePlayer();
     }
 
-    private void Spawn()
+    public void Spawn()
     {
         foreach (var item in _transform)
         {

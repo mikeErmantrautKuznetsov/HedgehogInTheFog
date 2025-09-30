@@ -44,7 +44,7 @@ public class MoveGameObject : MonoBehaviour, IMovement
                 expriedTime = 0;
             }
             float progress = expriedTime / duration;
-            transform.position = new Vector2(transform.position.x, transform.position.y + height.Evaluate(progress) * heightFloat);
+            transform.position = new Vector2(transform.position.x, height.Evaluate(progress) * heightFloat);
 
             Debug.Log("Jump");
         }

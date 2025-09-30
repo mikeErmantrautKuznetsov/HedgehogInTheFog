@@ -25,4 +25,5 @@ public class EventBus
     public Action OnMethodMovePlayer;
     public Action OnMethodJumpPlayer;
     public Action OnTouchDeadZona;
+    public Action OnDeadZonaDamage;
 }
